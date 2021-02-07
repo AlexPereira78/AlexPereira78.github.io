@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Lobster&display=swap');
+
+body {
+	font-family: 'Advent Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align : center;
+	padding-top: 30px;
+	font-size :2em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*------------------NAVBAR----------------*/
+
+nav {
+	overflow: hidden;
+	background-color : #DC7633  ;
+	position: fixed;
+	width : 100%;
+	opacity :0.9;
+}
+
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+
+header li a {
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+	color: black;
+}
+
+#logo {
+	font-family:'Lobster', cursive;
+	float: left;
+}
+
+/*---------------image principale----------------*/
+
+#imagePrincipale {
+	padding-top: 60px;
+	background: url(images/imagePrincipale.jpg) no-repeat fixed 50% 50%;
+	background-size: cover; 
+	height: 799px;
+}
+
+header h1 {
+font-family: 'Lobster', cursive;
+text-align: center;
+color: #D35400 ;
+font-size: 4em;
+padding-top: 90px;
+text-shadow: 1px 2px 3px black;
+}
+
+#premierTrait {
+	height: 2px;
+	width: 45%;
+	margin: -3px auto;
+	background-color: #D35400 ;
+	box-shadow: 1px 2px 3px black ;
+}
+
+header h3 {
+font-family: 'Advent Pro', cursive;
+text-align: center;
+color: #DC7633  ;
+font-size:2em;
+font-weight: bold;
+padding-top: 103px;
+text-shadow: 1px 2px 3px black ;
+}
+
+/*--------------------------presentation--------------------*/
+
+#presentation {
+	background-color: #F6DDCC ;
+	padding: 10px 0px 100px 0;
+}
+
+#texteIntro {
+	padding: 0px 20px;
+}
+
+#prestations {
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 30px 10px;
+}
+
+.imagesPrestations h4 {
+	font-family: 'Advent Pro', cursive;
+	text-align : center;
+	font-size: 1.8em;
+	margin:  15px;
+	font-weight: 300;
+}
+
+.imagesPrestations img {
+	border-radius: 10px;
+	width: 350px;
+	height: 250px
+}
+
+.imagesPrestations img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.8s;
+}
+
+/*-----------------tourisme----------------*/
+
+#tourisme {
+	height: 800px;
+	background-color: #EDBB99 ; 
+	padding: 1px 2% ;
+}
+
+#tourisme h2 {
+	padding-top : 60px;
+}
+
+#relax {
+	background: url(images/relax.jpeg);
+}
+
+#sportif {
+	background: url(images/sportif.jpg);
+}
+
+#culturel {
+	background: url(images/culturel.jpg);
+}
+
+#culinaire {
+	background: url(images/culinaire.jpg); 
+}
+
+#tourisme li{
+	margin: 65px 100px 0 100px;
+	height: 226px;
+	width: 30%;
+	max-width: 550px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px black;
+}
+
+#tourisme p{
+	font-family: 'Advent Pro', cursive;
+	height: 45px;
+	width: 235px;
+	background-color: #FDF2E9;
+	float: right;
+	margin: 50px -80px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+	box-shadow: 4px 4px 0 1px #F6DDCC;
+}
+
+/*---------------footer---------------*/
+
+footer {
+	background-color:  #E59866 ;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+
+.mb-3 {
+	width: 55%;
+	margin: 0 auto;
+	font-family: 'Advent Pro'
+	font-weight: bold;
+}
+
+#deuxiemetrait {
+	height: 2px;
+	width: 75%;
+	background-color: black;
+	margin: 60px auto
+}
+
+#copyrightETIcons{
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0 10%;
+}
+
+#copyright {
+	width: 50%;
+	text-align : left;
+}
+
+#icons {
+	width: 50%;
+	text-align: right;
+	font-size: 2em;
+}
+
+footer a {
+	color: black
+}
+
+
